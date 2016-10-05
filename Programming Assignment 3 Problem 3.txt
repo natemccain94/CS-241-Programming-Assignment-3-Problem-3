@@ -1,0 +1,20 @@
+//
+// proThreeProblemThree Pseudocode
+// COMP241
+// Fall 2015
+// PA3 Problem 3 Pseudocode
+// 05 November, 2015
+// Nate McCain
+//
+// Recursive application of converting a decimal number into binary and then 
+// returning the number of one’s in its binary representation.
+int giveBinOnes(int decimal)
+{
+    if decimal is zero, return zero.
+
+    else if decimal is one, return one.
+
+    else return giveBinOnes(decimal/2) plus giveBinOnes(decimal%2).
+}
+    
+	
